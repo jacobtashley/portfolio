@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jacob Ashley's Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <nav>
+            <p id="name">jacob ashley</p> 
+            <div class="dropdown">
+                <img class="burger" onclick="show_hide()"  src="images/burger.png" alt="drop down menu">
+                <div id="menu-content" class="inline">
+                    <a href="#lineOne">about</a>
+                    <a href="#lineTwo">profile</a>
+                    <a href="#contact">contact</a>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <img class="headerPhoto" src="images/me.jpg" alt="a photo of Jacob Ashley">
+            <h1 class="title">Junior Web Developer in training.</h1>
+            <hr id="lineOne">
+            <div class="aboutMe">
+                <h2>about me</h2>
+                <div class="about">
+                    <p>I am currently enrolled in the Bloc Web Developer track bootcamp program. I love coding and web development because 
+                    its always changing and its fun to be creative. I love working with CSS styling to make things look great!
+                    <br><br>
+                    In my personal life, I love collecting and repairing Arcade and Pinball machines, spending time with family 
+                    and playing video games!</p>
+                </div>
+            </div>
+            <hr id="lineTwo">
+            <div id="myProjects">
+                <h2>my projects</h2>
+                <div class="myProjects">
+
+                    <div class="dkQuiz bordered"> 
+                        <img id="dkscreen" src="images/dkscreen.png" alt="image of donkey kong quiz">
+                        <p>"Donkey Kong Quiz App"</p>
+                        <p>A short quiz to test your knowledge of the classic arcade game Donkey Kong!</p>
+                        <p>HTML, CSS, Javascript & jQuery</p>
+                        <p>Visit: <a href="https://jacobtashley.github.io/quizappFINAL/" target="_blank">Live</a>/<a href="https://github.com/jacobtashley/quizappFINAL" target="_blank">Repo</a></p>
+                    </div>
+                    <div class="arcadeApp bordered">
+                        <img id="dkscreen" src="images/screen1.png" alt="image of arcade search app">
+                        <p>"Classic Arcade Game Info App"</p>
+                        <p>A place to answer all your classic arcade game questions! Game information finder along with YouTube links to show videos of the gameplay of each game!</p>
+                        <p>HTML, CSS, Javascript & jQuery</p>
+                        <p>Visit: <a href="https://jacobtashley.github.io/classic-arcade-game-info/" target="_blank">Live</a>/<a href="https://github.com/jacobtashley/classic-arcade-game-info" target="_blank">Repo</a></p>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+        </main>
+        <footer id="contact">
+            <h2>contact me</h2>
+            <div>
+                <a href = "mailto:jacobtashley@gmail.com"><img id="email" src="images/email.png" alt="envelope outline"></a>
+                <a href = "https://www.linkedin.com/in/jacob-ashley-48004218a/" target="_blank"><img id="linkedin" src="images/linkedin.png" alt="linkedin logo"></a>
+                <a href = "https://github.com/jacobtashley" target="_blank"><img id="github" src="images/github.png" alt="github logo"></a>
+            </div>
+            
+        </footer>
+        <hr>
+        <script src="main.js"></script>
+    </body>
+</html>                                       
